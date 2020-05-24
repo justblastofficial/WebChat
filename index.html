@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>WhatsApp</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+           <img src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-01-512.png" alt="">
+        </header>
+        <main>
+            <ul id="messages"></ul>
+        </main>
+        <footer>
+            <form onsubmit="return sendMessage();">
+                <input class="search" id="message" placeholder="Enter message" autocomplete="off">
+            
+                <input  class="btn" type="submit">
+            </form>
+        </footer>
+        <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+</html>

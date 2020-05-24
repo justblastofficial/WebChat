@@ -1,0 +1,67 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+head {
+
+}
+
+body {
+position: relative;
+padding-bottom: 80px;
+min-height: 100vh;
+background-image: url("https://cdn.hipwallpaper.com/i/32/21/RAh3ga.jpg");
+}
+header {
+    height: 50px;
+    background: #303030;
+}
+img {
+    height: 50px;
+    width: 50px;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 5%; 
+    padding-top: 2%;
+    height: 10%;   
+}
+.search {
+    position: relative;
+    float: left;
+    background: #ffffff;
+    width: 80%;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #303030;
+}
+.btn {
+    float: right;
+    background: #ffffff;
+    width: 18%;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #303030;
+}
+
+footer {
+    text-align: center;
+    background-color: #303030;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background: #ffffff;
+    color: #303030;
+    width: 10%;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
